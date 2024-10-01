@@ -1,0 +1,38 @@
+/* changing the default prime react cards padding  */
+/* .p-card .p-card-body {
+  padding: 0.5rem;
+} */
+
+.p-card .p-card-body,
+.p-card .p-card-body {
+    padding: 0;
+    border-radius: 0;
+}
+@media (max-width: 600px) {
+    .p-card .p-card-body,
+    .p-card .p-card-body {
+        padding: 0.5rem;
+        border-radius: 0;
+    }
+}
+
+.p-card {
+    border-radius: 0;
+}
+
+@media (max-width: 991px) {
+    .layout-wrapper .layout-main-container {
+        margin-left: 0;
+        padding-left: 0 !important;
+    }
+
+    .layout-main-container {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        justify-content: space-between;
+        padding: 7rem 0 2rem 0 !important;
+        /* padding: 7rem 2rem 2rem 4rem; */
+        transition: margin-left 0.2s;
+    }
+}
